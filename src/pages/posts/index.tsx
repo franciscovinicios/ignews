@@ -10,7 +10,7 @@ import { getPrismicClient } from '../../services/prismic';
 type Post = {
   slug: string;
   title: string;
-  exerpet: string;
+  excerpt: string;
   updatedAt: string;
 }
 
@@ -30,10 +30,10 @@ export default function Posts({ posts }: PostsProps) {
         <div className={styles.posts}>
           {posts.map(post => (
             <Link  key={post.slug} href={`/posts/${post.slug}`}>
-              <a key={post.slug} >
+              <a>
                 <time>{post.updatedAt}</time>
                 <strong>{post.title}</strong>
-                <p>{post.exerpet}</p>
+                <p>{post.excerpt}</p>
               </a>
             </Link>
           ))}

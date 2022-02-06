@@ -6,7 +6,6 @@ import styles from './styles.module.scss';
 
 
 export function SignInButton() {
-  // por parametro pq ele retorna varias coisas
   const [session] = useSession()
 
   return session ? (
