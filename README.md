@@ -1,5 +1,5 @@
 <div align="center">
-	<h1>Dashgo. </h1>
+  <img src="https://user-images.githubusercontent.com/78514869/155884948-b73fd8f2-7c28-4b8f-b95e-5080ce168c55.svg" />
 </div>
 
 
@@ -39,17 +39,23 @@ The following tools were used in the construction of the project:
 
 ## Layout
 
-* **Dashboard**
+* **Home**
 
-![dashboard](https://user-images.githubusercontent.com/78514869/155859281-2d99e33f-5b32-4a49-bfc9-f19481925d0b.png)
+![home2](https://user-images.githubusercontent.com/78514869/155884931-aa33e86e-2e11-4190-be3d-1ffc423acd7f.png)
 
-* **Users**
 
-![users](https://user-images.githubusercontent.com/78514869/155859279-97d712a7-a184-45ed-923f-740a917fc8dd.png)
+* **Post Preview**
 
-* **Create User**
+![preview](https://user-images.githubusercontent.com/78514869/155884930-c06ab378-639c-49e1-a6a6-6e873722acfa.png)
 
-![createuser](https://user-images.githubusercontent.com/78514869/155859277-fd349e3c-4ce7-44bb-9ca8-f781f2426a58.png)
+
+* **Subscription**
+
+![stripe](https://user-images.githubusercontent.com/78514869/155884929-9745eb04-cc92-47f3-92f6-f18226d79a99.png)
+
+* **Post**
+
+![post](https://user-images.githubusercontent.com/78514869/155884926-4189fb3c-f8e4-44d0-9552-f2c2d84dbd71.png)
 
 
 ## Getting Started
@@ -68,8 +74,13 @@ The project can be built with npm or yarn, so choose one of the approach bellow 
 * To download the project follow the instructions bellow:
 
 ```
-1. git clone https://github.com/franciscovinicios/dashgo.git
-2. cd dashgo
+1. git clone https://github.com/franciscovinicios/ignews.git
+2. cd ignews
+```
+
+```
+ Add your environment variables in the file .env.example :
+ Change the file name to .env
 ```
 
 
