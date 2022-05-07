@@ -12,6 +12,46 @@
   color: var(--white);
   font-weight: bold;
 
+  @media(max-width: 599px) {
+    padding: 0 1rem;
+    font-size:0.8rem;
+    
+    svg {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  @media(max-width: 461px) {
+    width: 9rem;
+    height: 2rem;
+    padding: 0 1rem;
+    font-size:0.6rem;
+  
+    
+    svg {
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  @media(max-width: 421px) {
+    width: 7rem;
+    height: 2rem;
+    padding: 0 1rem;
+    font-size:0.6rem;
+  
+    
+    svg {
+      width: 5px;
+      height: 5px;
+    }
+  }
+
+  @media(max-width: 415px) {
+    font-size: 0.4rem
+  }
+
   svg {
     width: 20px;
     height: 20px;
@@ -30,4 +70,7 @@
   &:hover {
     filter: brightness(0.8);
   }
+
+
+  
 }
